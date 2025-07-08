@@ -1,0 +1,51 @@
+// create new repo in folder
+git init
+
+// check status
+git status
+
+// add files to to the git project -> staging envoirment
+git add <file>
+
+// commit file(s) to repo
+git commit -m "Your message about the commit"
+
+// create new branch
+git checkout -b <my branch name>
+
+// switch branch
+git checkout <my branch name>
+
+// list branches local
+git branch
+
+// list remote branches
+git branch -r
+
+// add new repo on github and follow commands to create remote repo from local git project
+git remote add origin https://github.com/Arnoforce/fuzzy-lamp.git
+git branch -M main
+git push -u origin main
+
+// push new branch
+git push origin <my branch name>
+
+// create pull request and merge on github website
+
+// update local repo
+git pull origin master
+git pull
+
+// view changes
+git log
+
+// remove remote branch (should delete local one as well?)
+git push origin --delete <my branch name>
+
+// remove local branch
+git branch -d my_new_branch
+
+// remove local branches that dont exist remotely anymore
+git remote prune origin
+
+
