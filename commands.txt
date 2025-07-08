@@ -10,6 +10,9 @@ git add <file>
 // commit file(s) to repo
 git commit -m "Your message about the commit"
 
+// add and commit 
+git commit -a -m "Your message about the commit"
+
 // publish to remote repo
 git push
 
