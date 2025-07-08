@@ -10,6 +10,9 @@ git add <file>
 // commit file(s) to repo
 git commit -m "Your message about the commit"
 
+// publish to remote repo
+git push
+
 // create new branch
 git checkout -b <my branch name>
 
@@ -43,9 +46,22 @@ git log
 git push origin --delete <my branch name>
 
 // remove local branch
-git branch -d my_new_branch
+git branch -d <my branch name>
 
 // remove local branches that dont exist remotely anymore
 git remote prune origin
 
+// clone repo from github
+git clone <url>
+
+// delete files
+git rm <file name>
+
+// change file name
+git mv <file-original> <file-renamed>
+
+// ignore files
+.gitignore
+-> ignores all files with certain endning or paths
+->  *.log   build/  temp-*
 
